@@ -6,13 +6,13 @@ while p1_wins < 2 && p2_wins < 2 do
   
  puts "Round #{round}!"
   
- roll_p1_1 = rand(7)
- roll_p1_2 = rand(7)
+ roll_p1_1 = rand(6) + 1
+ roll_p1_2 = rand(6) + 1
  total_p1 = roll_p1_1.+ roll_p1_2
  puts "You rolled #{roll_p1_1} and #{roll_p1_2}, for a total of #{total_p1}."
 
- roll_p2_1 = rand(7)
- roll_p2_2 = rand(7)
+ roll_p2_1 = rand(6) + 1
+ roll_p2_2 = rand(6) + 1
  total_p2 = roll_p2_1.+ roll_p2_2
  puts "Gary rolled #{roll_p2_1} and #{roll_p2_2}, for a total of #{total_p2}."
 
